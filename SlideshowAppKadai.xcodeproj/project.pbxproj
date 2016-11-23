@@ -12,6 +12,11 @@
 		B328857D1DD61E190074011B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B328857B1DD61E190074011B /* Main.storyboard */; };
 		B328857F1DD61E190074011B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B328857E1DD61E190074011B /* Assets.xcassets */; };
 		B32885821DD61E190074011B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32885801DD61E190074011B /* LaunchScreen.storyboard */; };
+		B3644C0B1DDB34AD003F96DA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3644C0A1DDB34AD003F96DA /* ResultViewController.swift */; };
+		B3DAE9ED1DDB49A500E3CA11 /* Stonehenge4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DAE9E91DDB49A500E3CA11 /* Stonehenge4.jpg */; };
+		B3DAE9EE1DDB49A500E3CA11 /* Stonehenge3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DAE9EA1DDB49A500E3CA11 /* Stonehenge3.jpg */; };
+		B3DAE9EF1DDB49A500E3CA11 /* Stonehenge2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DAE9EB1DDB49A500E3CA11 /* Stonehenge2.jpg */; };
+		B3DAE9F01DDB49A500E3CA11 /* Stonehenge1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DAE9EC1DDB49A500E3CA11 /* Stonehenge1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		B328857E1DD61E190074011B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B32885811DD61E190074011B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B32885831DD61E190074011B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3644C0A1DDB34AD003F96DA /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
+		B3DAE9E91DDB49A500E3CA11 /* Stonehenge4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stonehenge4.jpg; sourceTree = "<group>"; };
+		B3DAE9EA1DDB49A500E3CA11 /* Stonehenge3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stonehenge3.jpg; sourceTree = "<group>"; };
+		B3DAE9EB1DDB49A500E3CA11 /* Stonehenge2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stonehenge2.jpg; sourceTree = "<group>"; };
+		B3DAE9EC1DDB49A500E3CA11 /* Stonehenge1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stonehenge1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,10 @@
 			isa = PBXGroup;
 			children = (
 				B32885761DD61E190074011B /* SlideshowAppKadai */,
+				B3DAE9E91DDB49A500E3CA11 /* Stonehenge4.jpg */,
+				B3DAE9EA1DDB49A500E3CA11 /* Stonehenge3.jpg */,
+				B3DAE9EB1DDB49A500E3CA11 /* Stonehenge2.jpg */,
+				B3DAE9EC1DDB49A500E3CA11 /* Stonehenge1.jpg */,
 				B32885751DD61E190074011B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +71,7 @@
 				B32885771DD61E190074011B /* AppDelegate.swift */,
 				B32885791DD61E190074011B /* ViewController.swift */,
 				B328857B1DD61E190074011B /* Main.storyboard */,
+				B3644C0A1DDB34AD003F96DA /* ResultViewController.swift */,
 				B328857E1DD61E190074011B /* Assets.xcassets */,
 				B32885801DD61E190074011B /* LaunchScreen.storyboard */,
 				B32885831DD61E190074011B /* Info.plist */,
@@ -123,7 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B32885821DD61E190074011B /* LaunchScreen.storyboard in Resources */,
+				B3DAE9F01DDB49A500E3CA11 /* Stonehenge1.jpg in Resources */,
 				B328857F1DD61E190074011B /* Assets.xcassets in Resources */,
+				B3DAE9EE1DDB49A500E3CA11 /* Stonehenge3.jpg in Resources */,
+				B3DAE9ED1DDB49A500E3CA11 /* Stonehenge4.jpg in Resources */,
+				B3DAE9EF1DDB49A500E3CA11 /* Stonehenge2.jpg in Resources */,
 				B328857D1DD61E190074011B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +156,7 @@
 			files = (
 				B328857A1DD61E190074011B /* ViewController.swift in Sources */,
 				B32885781DD61E190074011B /* AppDelegate.swift in Sources */,
+				B3644C0B1DDB34AD003F96DA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +306,7 @@
 				B32885881DD61E1A0074011B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
