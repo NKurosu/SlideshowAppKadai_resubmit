@@ -18,23 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JcE-Nn-zwq">
-                                <rect key="frame" x="90" y="624" width="165" height="33"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
-                                <state key="normal" title="再生">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e2d-l1-6LP"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ストーンヘンジの一日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhV-cZ-xG2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ストーンヘンジの一日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhV-cZ-xG2">
                                 <rect key="frame" x="70" y="20" width="235" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0F6-hT-Vbk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0F6-hT-Vbk">
                                 <rect key="frame" x="30" y="630" width="30" height="27"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
                                 <state key="normal" title="戻る">
@@ -45,14 +35,15 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hbJ-Da-7EP">
-                                <rect key="frame" x="70" y="201" width="252" height="190"/>
+                                <rect key="frame" x="60" y="71" width="255" height="194"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="190" id="WWQ-9K-zge"/>
-                                    <constraint firstAttribute="width" constant="252" id="dNi-AZ-U9d"/>
+                                    <constraint firstAttribute="width" constant="255" id="GRi-WN-5xY"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="255" id="N0G-ar-Tef"/>
+                                    <constraint firstAttribute="height" constant="194" id="l0i-8h-P6W"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6F-T6-97a">
-                                <rect key="frame" x="315" y="630" width="30" height="27"/>
+                                <rect key="frame" x="314" y="630" width="31" height="27"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
                                 <state key="normal" title="進む">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -61,20 +52,31 @@
                                     <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w57-ca-AVd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JcE-Nn-zwq">
+                                <rect key="frame" x="172" y="632" width="30" height="27"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
+                                <state key="normal" title="再生">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e2d-l1-6LP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="fhV-cZ-xG2" secondAttribute="trailing" constant="70" id="23q-Ir-HdC"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0F6-hT-Vbk" secondAttribute="bottom" constant="10" id="9PX-oJ-LYt"/>
-                            <constraint firstItem="JcE-Nn-zwq" firstAttribute="leading" secondItem="0F6-hT-Vbk" secondAttribute="trailing" constant="30" id="Ov8-5X-Hse"/>
-                            <constraint firstItem="q6F-T6-97a" firstAttribute="leading" secondItem="JcE-Nn-zwq" secondAttribute="trailing" constant="30" id="SU5-2B-xfQ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q6F-T6-97a" secondAttribute="bottom" constant="10" id="VlR-6D-Bmg"/>
-                            <constraint firstItem="hbJ-Da-7EP" firstAttribute="top" secondItem="fhV-cZ-xG2" secondAttribute="bottom" constant="160" id="dYO-1K-5ZU"/>
-                            <constraint firstItem="fhV-cZ-xG2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="m1B-YA-lAk"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JcE-Nn-zwq" secondAttribute="bottom" constant="10" id="pwf-LX-alf"/>
-                            <constraint firstItem="fhV-cZ-xG2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="70" id="rFf-Yp-HsD"/>
-                            <constraint firstItem="hbJ-Da-7EP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rYA-gV-fV8"/>
-                            <constraint firstItem="JcE-Nn-zwq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="znc-oX-vlx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JcE-Nn-zwq" secondAttribute="bottom" constant="10" id="2gH-A7-BEG"/>
+                            <constraint firstItem="fhV-cZ-xG2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="3XX-FW-dT9"/>
+                            <constraint firstItem="JcE-Nn-zwq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6TD-fq-t6x"/>
+                            <constraint firstAttribute="trailing" secondItem="fhV-cZ-xG2" secondAttribute="trailing" constant="70" id="9r0-lu-efe"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q6F-T6-97a" secondAttribute="bottom" constant="10" id="Nbe-F8-H3I"/>
+                            <constraint firstAttribute="trailing" secondItem="q6F-T6-97a" secondAttribute="trailing" constant="30" id="TJU-V3-xXB"/>
+                            <constraint firstItem="0F6-hT-Vbk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="TMO-y5-pIq"/>
+                            <constraint firstAttribute="trailing" secondItem="hbJ-Da-7EP" secondAttribute="trailing" constant="60" id="VSL-Tu-aSA"/>
+                            <constraint firstItem="hbJ-Da-7EP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="aLe-8a-AAh"/>
+                            <constraint firstItem="hbJ-Da-7EP" firstAttribute="top" secondItem="fhV-cZ-xG2" secondAttribute="bottom" constant="100" id="exD-i9-ycV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0F6-hT-Vbk" secondAttribute="bottom" constant="10" id="sgK-Au-4zX"/>
+                            <constraint firstItem="fhV-cZ-xG2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="wg2-vi-td6"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

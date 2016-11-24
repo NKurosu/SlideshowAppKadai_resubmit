@@ -13,6 +13,7 @@
 		B328857F1DD61E190074011B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B328857E1DD61E190074011B /* Assets.xcassets */; };
 		B32885821DD61E190074011B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32885801DD61E190074011B /* LaunchScreen.storyboard */; };
 		B3644C0B1DDB34AD003F96DA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3644C0A1DDB34AD003F96DA /* ResultViewController.swift */; };
+		B3A5C7851DE5ED0A00D4ABAB /* SSAver22Nov2016.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = B3A5C7841DE5ED0A00D4ABAB /* SSAver22Nov2016.xcworkspace */; };
 		B3DAE9ED1DDB49A500E3CA11 /* Stonehenge4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DAE9E91DDB49A500E3CA11 /* Stonehenge4.jpg */; };
 		B3DAE9EE1DDB49A500E3CA11 /* Stonehenge3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DAE9EA1DDB49A500E3CA11 /* Stonehenge3.jpg */; };
 		B3DAE9EF1DDB49A500E3CA11 /* Stonehenge2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DAE9EB1DDB49A500E3CA11 /* Stonehenge2.jpg */; };
@@ -28,6 +29,7 @@
 		B32885811DD61E190074011B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B32885831DD61E190074011B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3644C0A1DDB34AD003F96DA /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
+		B3A5C7841DE5ED0A00D4ABAB /* SSAver22Nov2016.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = SSAver22Nov2016.xcworkspace; sourceTree = "<group>"; };
 		B3DAE9E91DDB49A500E3CA11 /* Stonehenge4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stonehenge4.jpg; sourceTree = "<group>"; };
 		B3DAE9EA1DDB49A500E3CA11 /* Stonehenge3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stonehenge3.jpg; sourceTree = "<group>"; };
 		B3DAE9EB1DDB49A500E3CA11 /* Stonehenge2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stonehenge2.jpg; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		B328856B1DD61E190074011B = {
 			isa = PBXGroup;
 			children = (
+				B3A5C7841DE5ED0A00D4ABAB /* SSAver22Nov2016.xcworkspace */,
 				B32885761DD61E190074011B /* SlideshowAppKadai */,
 				B3DAE9E91DDB49A500E3CA11 /* Stonehenge4.jpg */,
 				B3DAE9EA1DDB49A500E3CA11 /* Stonehenge3.jpg */,
@@ -144,6 +147,7 @@
 				B3DAE9ED1DDB49A500E3CA11 /* Stonehenge4.jpg in Resources */,
 				B3DAE9EF1DDB49A500E3CA11 /* Stonehenge2.jpg in Resources */,
 				B328857D1DD61E190074011B /* Main.storyboard in Resources */,
+				B3A5C7851DE5ED0A00D4ABAB /* SSAver22Nov2016.xcworkspace in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
